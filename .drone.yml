@@ -46,7 +46,7 @@ steps:
       - cd tests/unit/
       - phpunit --configuration phpunit.xml
   - name: php7.3
-    image: nextcloudci/php7.3:php7.3-1
+    image: nextcloudci/php7.3:php7.3-5
     environment:
       APP_NAME: user_saml
       CORE_BRANCH: master
