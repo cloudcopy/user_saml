@@ -43,7 +43,7 @@ class OnlyLoggedInMiddlewareTest extends \Test\TestCase  {
 			$this->userSession
 		);
 
-		return parent::setUp();
+		parent::setUp();
 	}
 
 	public function testBeforeControllerWithoutAnnotation() {

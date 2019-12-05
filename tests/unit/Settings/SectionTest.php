@@ -40,7 +40,7 @@ class SectionTest extends \Test\TestCase  {
 			$this->urlGenerator
 		);
 
-		return parent::setUp();
+		parent::setUp();
 	}
 
 	public function testGetId() {

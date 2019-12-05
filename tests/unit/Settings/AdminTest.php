@@ -48,7 +48,7 @@ class AdminTest extends \Test\TestCase  {
 			$this->config
 		);
 
-		return parent::setUp();
+		parent::setUp();
 	}
 
 	public function formDataProvider() {
